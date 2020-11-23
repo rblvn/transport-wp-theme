@@ -1,0 +1,9 @@
+usage:
+
+$('.select-field').selectField({
+	showItems: 6 
+});
+
+options: 
+
+showItems - количество показываем элементов(по умолчанию = 6) для прокрутки

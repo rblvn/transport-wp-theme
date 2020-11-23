@@ -1,0 +1,41 @@
+<!-- одиночный выпадающий список -->
+<div class="select-field">
+	<input class="selected-value" type="text" name="broadcast-rubric" value="">
+
+	<div class="select-field-value"></div>
+
+	<ul class="select-list">
+		<li class="item selected" data-value="1">
+			<span>1</span>
+		</li>
+		<li class="item" data-value="2">
+			<span>2</span>
+		</li>
+		<li class="item" data-value="3">
+			<span>3</span>
+		</li>
+	</ul>
+</div>
+
+<!-- выпадающий список с множественным значением -->
+<div class="select-field multiple">
+	<!-- значение по умолчанию(не удалять) -->
+	<input type="hidden" name="select-name[]" class="selected-value default">
+
+	<!-- активные значения -->
+	<input type="hidden" name="select-name[]" class="selected-value" value="value">
+
+	<div class="select-value"></div>
+
+	<ul class="select-list">
+		<li class="item selected" data-value="1">
+			<span>1</span>
+		</li>
+		<li class="item" data-value="2">
+			<span>2</span>
+		</li>
+		<li class="item" data-value="3">
+			<span>3</span>
+		</li>
+	</ul>
+</div>

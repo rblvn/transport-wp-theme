@@ -1,0 +1,1 @@
+<div class="stat-notice"><?php block_field( 'woodbag-notice' ); ?></div>
